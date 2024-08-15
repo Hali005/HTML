@@ -1,0 +1,97 @@
+/*
+*{
+    margin:0; /*    "*"    apply on all
+    padding:0;
+}
+*/
+.box{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+    color:rgb(0, 213, 255);
+    background-color:rgba(250, 235, 215, 0.421);
+}
+
+.container{
+    width: 80%; /*if i set to 960px it will not be responsive.*/
+    margin:auto;
+    text-align: justify;
+}
+.image{
+    height: 300px;
+    width: 200;
+}
+
+
+.box h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em; /*use em unit*/
+    word-spacing: 1em;
+}
+
+.box1{
+    border:2px #ccc solid;
+    padding: 3px;;
+}
+
+.box1 ul{
+    padding-left: 30px;
+    list-style: square;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:blueviolets
+}
+a:visited{
+    color:black;
+}
+
+.box2{
+    margin:1px;
+    border:2px rgb(27, 38, 83) solid;
+    padding:2px;
+
+}
+.form-group{
+    padding: 2px;
+    border: 9px #ccc solid;
+}
+.form-group label{
+    display: block;
+}
+.box2 h2{
+    text-align: center;
+}
+
+.form-group input{
+    padding: 10px;
+    width: 90%;
+    border: 10px #ccc solid;
+}
+
+.button{
+    background-color:black;
+    color: #ccc;
+    padding: 5px;
+    margin-left:10px;
+}
+.button:hover{
+    background-color: aqua;
+    color: red;
+}
+
+.block{
+    float: left;
+    width: 30%;
+}
